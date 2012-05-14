@@ -17,7 +17,7 @@ insults = [
   'you have the manners of a begger.',
   'I\'m not going to take your insolence sitting down!',
   'there are no words for how disgusting you are.',
-  'I\'ve spoken with apes more polite then you.',
+  'I\'ve spoken with apes more polite than you.',
   
   'I\'ve got a long, sharp lesson for you you to learn today.',
   'my tongue is sharper then any sword.',
