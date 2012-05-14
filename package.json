@@ -1,0 +1,28 @@
+{
+  "name":        "Jarvis",
+  "version":     "0.2.0",
+  "author":      "Nathan Hoad",
+  "keywords":    "github hubot campfire bot",
+  "description": "A simple helpful Robot for your Company",
+  "licenses":     [{
+    "type":       "MIT",
+    "url":        "http://github.com/github/hubot/raw/master/LICENSE"
+  }],
+  
+  "engines": {
+    "node": "0.6.10",
+    "npm":  "1.1.9"
+  },
+
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/nathanhoad/hubot.git"
+  },
+
+  "dependencies": {
+    "hubot": "2.1.3",
+    "hubot-scripts": ">=2.0.4",
+    "optparse": "1.0.3"
+  }
+}
+
