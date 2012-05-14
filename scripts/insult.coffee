@@ -36,4 +36,7 @@ insults = [
 
 module.exports = (robot) ->
   robot.respond /insult (.*)/i, (msg) ->
-    msg.send "#{msg.match[1]}, #{insults[Math.floor(Math.random() * 100 % insults.length)]}"
+    if msg.match[1].match /.*nathan.*/ig
+      msg.send "How dare you!"
+    else
+      msg.send "#{msg.match[1]}, #{insults[Math.floor(Math.random() * 100 % insults.length)]}"
