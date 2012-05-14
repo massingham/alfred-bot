@@ -8,4 +8,4 @@ insults = [
 
 module.exports = (robot) ->
   robot.respond /insult (.*)/i, (msg) ->
-    msg.send "#{msg.match[0]}, #{insults[Math.floor(Math.random() * 100 % insults.length)]}"
+    msg.send "#{msg.match[1]}, #{insults[Math.floor(Math.random() * 100 % insults.length)]}"
